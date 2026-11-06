@@ -40,10 +40,10 @@ export default {
      */
     locationType: 'office',
     address: {
-      streetAddress: null, // [REQUIRED] e.g. "1234 Example St, Suite 200" — real, staffed office only
+      streetAddress: '6920 Miramar Rd #318', // real, staffed office
       addressLocality: 'San Diego',
       addressRegion: 'CA',
-      postalCode: null, // [REQUIRED]
+      postalCode: '92121',
       addressCountry: 'US',
     },
     geo: null, // real coordinates of the office only

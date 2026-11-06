@@ -15,11 +15,10 @@ Use this **after** the website is live and Search Console is verified.
   before creating the profile.
 - **Business type:** **Local store / storefront**: clients visit your San Diego office during the
   posted hours. Google requires a **complete, real street address that is staffed during those
-  hours**. The website currently shows **address placeholders** — fill in the real street address
-  and ZIP in `site.config.mjs` first, so the site and the profile match exactly.
+  hours**.
   If you can't staff an office during the posted hours, switch to a **service business** instead
   (`locationType: 'service-area'`, address hidden).
-- **Address:** must match the website character for character (suite number included).
+- **Address:** **6920 Miramar Rd #318, San Diego, CA 92121**, entered exactly as on the website (suite number included).
 - **Phone:** **(858) 225-5674**.
 - **Hours:** Monday–Friday, 9:00 AM – 5:00 PM.
 - **Primary category:** **Financial consultant**.

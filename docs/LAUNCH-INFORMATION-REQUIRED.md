@@ -8,7 +8,7 @@ Run `node build.mjs` to see what's still missing. Nothing on the site has been i
 - [x] Site URL: `https://tideward.netlify.app`
 - [x] Phone: **(858) 225-5674**
 - [x] Hours: **Monday–Friday, 9:00 AM – 5:00 PM (Pacific Time)**, office meetings by appointment
-- [x] Business type: **storefront office** in San Diego, CA (Google Business Profile "Local store")
+- [x] Business type: **storefront office** at **6920 Miramar Rd #318, San Diego, CA 92121** (Google Business Profile "Local store")
 - [x] Services confirmed: plan setup, records and valuations, Form 5500-EZ preparation, ongoing
       support, Self-Directed and Solo 401(k) education, and office meetings
 - [x] Role: administrative support alongside the client's plan provider, at the sponsor's
@@ -20,11 +20,9 @@ Run `node build.mjs` to see what's still missing. Nothing on the site has been i
 
 | Item | Notes |
 |---|---|
-| **Office street address** | `business.address.streetAddress`. Must be a real office that is **staffed during the posted hours** and receives clients. No virtual office, mailbox (UPS/PO box) or unstaffed coworking address. Currently a visible placeholder. |
-| **ZIP code** | `business.address.postalCode`. Currently a visible placeholder. |
 | **Register the business name** | California **Fictitious Business Name** statement with the San Diego County Assessor/Recorder/County Clerk, then publish it in a local newspaper once a week for 4 weeks. Then set `business.publicNameConfirmed: true`. Check the county FBN index, the USPTO and Google Maps for "Tideward" conflicts first. |
 
-Optional once the address is set: `business.geo` with the office's real coordinates.
+Optional: `business.geo` with the office's real coordinates.
 
 ## Recommended before going public
 
