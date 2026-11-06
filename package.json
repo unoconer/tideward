@@ -1,0 +1,12 @@
+{
+  "name": "tideward",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Tideward — static, zero-dependency build for Netlify.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:strict": "STRICT=1 node build.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
