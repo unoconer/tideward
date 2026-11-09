@@ -15,7 +15,7 @@
 export default {
   site: {
     url: 'https://tideward.netlify.app', // no trailing slash
-    googleSiteVerification: null, // Search Console HTML-tag "content" value
+    googleSiteVerification: 'uQuSXe-Je-RhFQvAuUw3HgrQl4iCKOdcKjo_NqB0bKw', // Search Console HTML-tag "content" value
     locale: 'en_US',
     language: 'en-US',
   },
